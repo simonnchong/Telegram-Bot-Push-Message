@@ -17,11 +17,11 @@ with open("./files/image.jpg", "rb") as image: # insert your own image path here
     telegram_send.send(images=[image]) # an item in a list represent a message
     
 # send a text message and image as a file with caption
-with open(".files/image.jpg", "rb") as image: # insert your own image path here, read the file as binary mode
+with open("./files/image.jpg", "rb") as image: # insert your own image path here, read the file as binary mode
     telegram_send.send(messages=["Hey!\nThis is a new message!"], files=[image], captions=["This is a image!"]) 
 
 # send a text file with caption
-with open(".files/simon_github.txt") as text_file: # insert your own text file path here
+with open("./files/simon_github.txt") as text_file: # insert your own text file path here
     telegram_send.send(files=[text_file], captions=["This is a text file!"]) 
     
 
