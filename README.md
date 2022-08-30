@@ -17,7 +17,7 @@ telegram_send.send(messages=["Message 1", "Message 2"])
 ```
 <img src="readme_imgs/1.png" width="400">
 
-<br>
+
 
 ### Send image message
 The image will be imported from local machine, open it as a binary format.
@@ -27,7 +27,7 @@ with open("./files/image.jpg", "rb") as image:
 ```
 <img src="readme_imgs/2.png" width="400">
 
-<br>
+
 
 ### Send a text message and image as a file with caption
 You may combine few things with different formats into a single message, such as text, file, image with caption, sticker and so on.
@@ -37,7 +37,7 @@ with open("./files/image.jpg", "rb") as image:
 ```
 <img src="readme_imgs/3.png" width="400">
 
-<br>
+
 
 ### Send a text file with caption
 To send text and file in a single message, you may use "caption" to send the description that attached with the file.
@@ -47,7 +47,7 @@ with open("./files/simon_github.txt") as text_file:
 ```
 <img src="readme_imgs/4.png" width="400">
 
-<br>
+
 
 ### Overview
 <img src="readme_imgs/0.png" width="400">
